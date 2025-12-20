@@ -1,4 +1,1 @@
-[core]
-    remote = a
-['remote "a"']
-    url = ../aaaaa
+
