@@ -1,0 +1,5 @@
+outs:
+- md5: b5746ff09e5823eef555fa910ea98fc8
+  size: 1727755
+  hash: md5
+  path: best_BirdCNN.pth

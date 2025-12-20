@@ -1,0 +1,5 @@
+outs:
+- md5: 31a89825f7c8eddc3d351ad3fef83d14
+  size: 16353559
+  hash: md5
+  path: best_EfficientNetB0.pth

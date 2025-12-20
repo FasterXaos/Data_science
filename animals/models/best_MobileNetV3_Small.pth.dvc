@@ -1,0 +1,5 @@
+outs:
+- md5: 642b2e811fffabda59601ceae571f590
+  size: 3853091
+  hash: md5
+  path: best_MobileNetV3_Small.pth
