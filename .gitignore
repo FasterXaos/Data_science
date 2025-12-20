@@ -1,3 +1,5 @@
 *.csv
+!observations-*.csv
+
 catboost_info/
 cnn/Mushrooms/
