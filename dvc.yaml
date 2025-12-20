@@ -1,0 +1,21 @@
+params:
+  - dvclive/params.yaml
+metrics:
+  - dvclive/metrics.json
+plots:
+  - dvclive/plots/metrics/MobileNetV3_Small/train_loss.tsv:
+      x: step
+      y: MobileNetV3_Small/train_loss
+  - dvclive/plots/metrics/MobileNetV3_Small/test_accuracy.tsv:
+      x: step
+      y: MobileNetV3_Small/test_accuracy
+  - trainLossHistory vs numEpochs:
+      template: linear
+      x: trainLossHistory
+      y:
+        animals\metrics.json: numEpochs
+
+artifacts:
+  MobileNetV3_Small_confusion:
+    path: MobileNetV3_Small_confusion.csv
+    type: table
