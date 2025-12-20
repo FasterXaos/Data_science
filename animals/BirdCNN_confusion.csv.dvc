@@ -1,0 +1,5 @@
+outs:
+- md5: 3bf9fa06b9285154f94b07d06c1c08c7
+  size: 74
+  hash: md5
+  path: BirdCNN_confusion.csv

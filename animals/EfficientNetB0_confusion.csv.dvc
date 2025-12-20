@@ -1,0 +1,5 @@
+outs:
+- md5: 2aaa8429117d4266d48ca302af50c0f8
+  size: 63
+  hash: md5
+  path: EfficientNetB0_confusion.csv

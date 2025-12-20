@@ -1,5 +1,5 @@
 outs:
-- md5: 10a4b34a9dfced474aa657d3b77844fa
+- md5: fabb25e79caeea4b7c7f91656ec92a60
   size: 44794571
   hash: md5
   path: best_ResNet18.pth
