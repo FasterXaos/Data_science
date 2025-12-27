@@ -1,28 +1,31 @@
 params:
-  - animals/dvclive/params.yaml
+  - animals/params.yaml
 
 metrics:
   - animals/dvclive/metrics.json
 
 plots:
-  - animals/dvclive/plots/metrics/MobileNetV3_Small/train_loss.tsv:
+  - animals/dvclive/plots/metrics/train_loss.tsv:
       x: step
       y: train_loss
       title: Train Loss
-  - animals/dvclive/plots/metrics/MobileNetV3_Small/train_accuracy.tsv:
+
+  - animals/dvclive/plots/metrics/train_accuracy.tsv:
       x: step
       y: train_accuracy
       title: Train Accuracy
-  - animals/dvclive/plots/metrics/MobileNetV3_Small/test_loss.tsv:
+
+  - animals/dvclive/plots/metrics/test_loss.tsv:
       x: step
       y: test_loss
       title: Test Loss
-  - animals/dvclive/plots/metrics/MobileNetV3_Small/test_accuracy.tsv:
+
+  - animals/dvclive/plots/metrics/test_accuracy.tsv:
       x: step
       y: test_accuracy
       title: Test Accuracy
 
 artifacts:
-  MobileNetV3_Small_confusion:
-    path: animals/MobileNetV3_Small_confusion.csv
+  confusion:
+    path: animals/*_confusion.csv
     type: table

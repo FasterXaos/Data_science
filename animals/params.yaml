@@ -1,0 +1,12 @@
+numEpochs: 10
+batchSize: 16
+learningRate: 0.005
+randomSeed: 42
+testSize: 0.2
+
+model: MobileNetV3_Small
+#  - BirdCNN
+#  - ResNet18
+#  - EfficientNetB0
+#  - DenseNet121
+#  - MobileNetV3_Small
