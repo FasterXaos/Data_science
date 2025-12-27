@@ -1,5 +1,5 @@
 outs:
-- md5: c5978dce76c95215081f39ad87f6007e
-  size: 66
+- md5: 4e278e8d5ea444444dc547d9c03304f6
+  size: 65
   hash: md5
   path: ResNet18_confusion.csv

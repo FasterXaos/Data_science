@@ -1,6 +1,6 @@
 numEpochs: 10
 batchSize: 16
-learningRate: 0.005
+learningRate: 0.01
 randomSeed: 42
 testSize: 0.2
 
